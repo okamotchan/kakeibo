@@ -25,6 +25,7 @@
 			</tr>
 		<% end %>
 	</tbody>
+  <%= pie_chart Expense.group(:genre).count %>
 </table>
 
 <% else %>

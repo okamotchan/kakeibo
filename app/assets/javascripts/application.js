@@ -13,4 +13,6 @@
 //= require rails-ujs
 //= require activestorage
 //= require materialize
+//= require Chart.bundle
+//= require chartkick
 //= require_tree .
