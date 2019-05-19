@@ -4,3 +4,7 @@
   <%= render "form", form: form %>
   <div><%= form.submit %> </div>
 <% end %>
+
+<% if @expense.errors.any? %>
+	<p>記入漏れがあります</p>
+<% end %>
