@@ -15,4 +15,10 @@
 //= require materialize
 //= require Chart.bundle
 //= require chartkick
+//= require moment 
+//= require fullcalendar
+//= require fullcalendar/locale-all
+
+$('#calendar').fullCalendar({});
+
 //= require_tree .
