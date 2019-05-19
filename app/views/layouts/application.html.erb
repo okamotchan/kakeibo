@@ -4,6 +4,14 @@
     <title>Kakeibo</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">kakeibo</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="expenses/new">記録する</a></li>
+      </ul>
+    </div>
+  </nav>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>

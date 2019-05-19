@@ -1,5 +1,4 @@
-<h3>家計簿</h3>
-<p><%= link_to "記録する", :new_expense %></p>
+<h4>あなたの家計簿</h4>
 <% if @expenses.present? %>
 <table>
   <thead>
@@ -26,3 +25,5 @@
 <% else %>
   <p>何も記録されていません</p>
 <% end %>
+
+<p class="waves-effect waves-light btn-small white center-align"><%= link_to "記録する", :new_expense %></p>
