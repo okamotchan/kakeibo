@@ -1,24 +1,12 @@
-# README
+# 家計簿アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- 「買ったもの」と「値段」を記録できる
+- 上記の閲覧・入力・編集・削除ができる
 
-Things you may want to cover:
+## 環境
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+| | |
+| --- | --- |
+| Ruby | 2.4.2 |
+| Rails | ~> 5.1.4 |
+| PostgreSQL | ? |
