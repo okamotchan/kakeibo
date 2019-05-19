@@ -4,18 +4,23 @@
   <thead>
     <tr>
       <th>買ったもの</th>
+      <th>ジャンル</th>
       <th>金額</th>
+      <th>更新日時</th>
     </tr>
   </thead>
   <tbody>
 		<% @expenses.each do |expense| %>
 			<tr>
 				<td><%= expense.name %></td>
+        <td><%= expense.genre %></td>
 				<td><%= expense.price %></td>
-				<td>
-				<%= link_to "編集", [:edit, expense] %>
-				<%= link_to "削除", expense, method: :delete,
-					data: { confirm: "本当に削除しますか？"} %>
+        <td><%= expense.created_at %></td>
+				<td class="waves-effect waves-light btn-small white center-align">
+            <%= link_to "編集", [:edit, expense] %>
+        </td>
+        <td class="waves-effect waves-light btn-small white center-align">
+            <%= link_to "削除", expense, method: :delete, data: { confirm: "本当に削除しますか？"} %>
 				</td>
 			</tr>
 		<% end %>
