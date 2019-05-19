@@ -1,0 +1,15 @@
+<h3>詳細を見る</h3>
+<%= link_to "編集", [:edit, @expense] %>
+<%= link_to "一覧へ戻る", :expenses %>
+
+<table>
+	<tr>
+    <th>買ったもの</th>
+    <td><%= @expense.name %></td>
+  </tr>
+
+	<tr>
+		<th>金額</th>
+		<td><%= @expense.price %></td>
+	</tr>
+</table>
