@@ -1,5 +1,5 @@
 <h4>あなたの家計簿</h4>
-<% if @expenses.present? %>
+<% if @expense.present? %>
 <table>
   <thead>
     <tr>
@@ -10,7 +10,7 @@
     </tr>
   </thead>
   <tbody>
-		<% @expenses.each do |expense| %>
+		<% @expense.each do |expense| %>
 			<tr>
 				<td><%= expense.name %></td>
         <td><%= expense.genre %></td>
@@ -32,6 +32,6 @@
   <p>何も記録されていません</p>
 <% end %>
 
-<p class="waves-effect waves-light btn-small white center-align"><%= link_to "記録する", :new_expense %></p>
+<p class="waves-effect waves-light btn-small white"><%= link_to "記録する", :new_expense %></p>
 
 <div id="calendar"></div>

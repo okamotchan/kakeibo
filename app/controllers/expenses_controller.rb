@@ -1,6 +1,6 @@
 class ExpensesController < ApplicationController
   def index
-    @expenses = Expense.order(created_at: :asc)
+    @expense = Expense.order(created_at: :desc)
   end
 
   def show
