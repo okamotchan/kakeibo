@@ -18,7 +18,7 @@
 | Rails | ~> 5.1.4 |
 | PostgreSQL | ? |
 
-## install
+## Install
 
 ```
 git clone https://github.com/okamotchan/kakeibo.git 
@@ -29,7 +29,7 @@ rails s
 ```
 and access ```https://localhost:3000```
 
-### ref
+### Ref
 [https://chartkick.com/](https://chartkick.com/)
 
 [https://github.com/bokmann/fullcalendar-rails](https://github.com/bokmann/fullcalendar-rails)
