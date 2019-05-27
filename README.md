@@ -20,12 +20,16 @@
 
 ## install
 
-`git clone https://github.com/okamotchan/kakeibo.git `
+```
+git clone https://github.com/okamotchan/kakeibo.git 
 
-`cd kakeibo`
+cd kakeibo
 
-`rails s` and access `localhost:3000`
+rails s
+```
+and access ```https://localhost:3000```
 
 ### ref
 [https://chartkick.com/](https://chartkick.com/)
+
 [https://github.com/bokmann/fullcalendar-rails](https://github.com/bokmann/fullcalendar-rails)
