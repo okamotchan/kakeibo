@@ -42,6 +42,8 @@ gem 'momentjs-rails'
 gem 'fullcalendar-rails'
 
 gem 'rails_12factor', group: :production
+gem 'rubocop'
+gem 'rubocop-performance'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
