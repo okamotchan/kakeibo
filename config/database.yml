@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: kakeibo_production
-  username: kakeibo
+  username: okamotomasahiro
   password: <%= ENV['KAKEIBO_DATABASE_PASSWORD'] %>
